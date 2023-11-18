@@ -15,7 +15,7 @@ const PortfolioItem = (props) => {
         alt={props.alt}
         width={props.type == "small" ? 409 : 845}
         height={props.type == "small" ? 249 : 521}
-        className="group-hover:scale-110 ease-in-out duration-200 w-full"
+        className="group-hover:scale-110 group-hover:opacity-90 ease-in-out duration-200 w-full"
       />
     </div>
   );
