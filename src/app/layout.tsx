@@ -2,6 +2,10 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Providers from "./provider.jsx";
+import { useContext } from "react";
+import ModalState from "@/store/modal-state";
+import Overlay from "@/components/Overlay";
+import Modal from "@/components/Modal";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -15,10 +19,18 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
+  // const context = useContext(ModalState);
   return (
     <html lang="en">
       <body className={inter.className}>
-        <Providers>{children}</Providers>
+        <Providers>
+          {children}
+          {/* {context.isModalActive && (
+            <Overlay>
+              <Modal />
+            </Overlay>
+          )} */}
+        </Providers>
       </body>
     </html>
   );

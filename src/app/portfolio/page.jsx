@@ -3,13 +3,9 @@ import React, { useContext } from "react";
 import { motion } from "framer-motion";
 
 import { ImageTypes } from "../../../utils/Types";
-import Modal from "@/components/Modal";
-
 import PortfolioItem from "@/components/PortfolioItem";
 import ModalState from "@/store/modal-state";
-import Overlay from "@/components/Overlay";
 const Portfolio = () => {
-  const context = useContext(ModalState);
   return (
     <>
       <motion.section
@@ -27,11 +23,6 @@ const Portfolio = () => {
           />
         ))}
       </motion.section>
-      {context.isModalActive && (
-        <Overlay>
-          <Modal />
-        </Overlay>
-      )}
     </>
   );
 };

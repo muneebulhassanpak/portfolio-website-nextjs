@@ -1,4 +1,4 @@
-import React, { useContext, useState } from "react";
+import React, { useContext } from "react";
 import ModalState from "../store/modal-state";
 import Image from "next/image";
 import Link from "next/link";
@@ -13,13 +13,13 @@ const Modal = () => {
   const Item = dataFetcher(activeElementId);
   return (
     <section
-      className="h-screen w-full sm:w-[90%] bg-white absolute right-0 top-0 bottom-0"
+      className="h-screen w-[95%] sm:w-[90%] bg-white absolute right-0 top-0 bottom-0"
       onClick={(e) => {
         e.stopPropagation();
       }}
     >
       <div className="relative">
-        <div className="max-w-3xl mx-auto py-4">
+        <div className="max-w-3xl mx-auto px-2 sm:px-0 py-4">
           {Item && (
             <>
               <div className="flex justify-center mt-6 sm:mt-0 sm:pb-2">
@@ -31,7 +31,7 @@ const Modal = () => {
                 />
               </div>
               <div className="flex flex-col sm:flex-row gap-4 items-center justify-between py-2  border-b border-[rgba(0,0,0.5)]">
-                <div className="w-1/2 p-1">
+                <div className="w-full sm:w-1/2 p-1">
                   <h3 className="text-center sm:text-left mb-2 text-xl font-semibold">
                     Used Technologies
                   </h3>

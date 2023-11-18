@@ -1,6 +1,8 @@
 "use client";
 import React, { useState } from "react";
 import ModalState from "../store/modal-state";
+import Overlay from "@/components/Overlay";
+import Modal from "@/components/Modal";
 
 function Providers({ children }) {
   const [modalState, setModalState] = useState({
@@ -36,6 +38,11 @@ function Providers({ children }) {
       }}
     >
       {children}
+      {modalState.isModalActive && (
+        <Overlay>
+          <Modal />
+        </Overlay>
+      )}
     </ModalState.Provider>
   );
 }
