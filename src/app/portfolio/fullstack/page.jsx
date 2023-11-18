@@ -23,6 +23,7 @@ const Fullstackpage = () => {
     >
       {imagesToBeShown.map((item) => (
         <PortfolioItem
+          id={item.id}
           key={item.id}
           source={`/${item.source}`}
           alt={item.alt}

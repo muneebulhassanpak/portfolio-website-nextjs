@@ -23,6 +23,23 @@ export const ImageTypes = [
     alt: "foodWebsiteImage",
     type: "small",
     part: "frontend",
+    technolgies: [
+      {
+        id: "1",
+        name: "HTML",
+        image: "html.png",
+      },
+      {
+        id: "2",
+        name: "CSS",
+        image: "css.png",
+      },
+      {
+        id: "3",
+        name: "JS",
+        image: "js.png",
+      },
+    ],
   },
   {
     id: "2",
@@ -30,6 +47,28 @@ export const ImageTypes = [
     alt: "agencyWebsiteImage",
     type: "small",
     part: "frontend",
+    technolgies: [
+      {
+        id: "1",
+        name: "HTML",
+        image: "html.png",
+      },
+      {
+        id: "2",
+        name: "CSS",
+        image: "css.png",
+      },
+      {
+        id: "3",
+        name: "JS",
+        image: "js.png",
+      },
+      {
+        id: "4",
+        name: "React",
+        image: "react.png",
+      },
+    ],
   },
   {
     id: "3",
@@ -37,6 +76,23 @@ export const ImageTypes = [
     alt: "creativeWebsiteImage",
     type: "small",
     part: "frontend",
+    technolgies: [
+      {
+        id: "1",
+        name: "HTML",
+        image: "html.png",
+      },
+      {
+        id: "2",
+        name: "CSS",
+        image: "css.png",
+      },
+      {
+        id: "3",
+        name: "JS",
+        image: "js.png",
+      },
+    ],
   },
   {
     id: "4",
@@ -44,6 +100,43 @@ export const ImageTypes = [
     alt: "youtubeWebsiteImage",
     type: "large",
     part: "full-stack",
+    technolgies: [
+      {
+        id: "1",
+        name: "HTML",
+        image: "html.png",
+      },
+      {
+        id: "2",
+        name: "CSS",
+        image: "css.png",
+      },
+      {
+        id: "3",
+        name: "JS",
+        image: "js.png",
+      },
+      {
+        id: "4",
+        name: "React",
+        image: "react.png",
+      },
+      {
+        id: "5",
+        name: "TailwindCSS",
+        image: "tailwind.svg",
+      },
+      {
+        id: "6",
+        name: "ExpressJs",
+        image: "express.png",
+      },
+      {
+        id: "7",
+        name: "Firebase",
+        image: "firebase.png",
+      },
+    ],
   },
   {
     id: "5",
@@ -51,6 +144,28 @@ export const ImageTypes = [
     alt: "creativeWebsiteImage",
     type: "small",
     part: "frontend",
+    technolgies: [
+      {
+        id: "1",
+        name: "HTML",
+        image: "html.png",
+      },
+      {
+        id: "2",
+        name: "CSS",
+        image: "css.png",
+      },
+      {
+        id: "4",
+        name: "Bootstrap",
+        image: "bootstrap.png",
+      },
+      {
+        id: "3",
+        name: "JS",
+        image: "js.png",
+      },
+    ],
   },
   {
     id: "6",
@@ -58,6 +173,28 @@ export const ImageTypes = [
     alt: "foodWebsiteImage",
     type: "small",
     part: "frontend",
+    technolgies: [
+      {
+        id: "1",
+        name: "HTML",
+        image: "html.png",
+      },
+      {
+        id: "2",
+        name: "CSS",
+        image: "css.png",
+      },
+      {
+        id: "4",
+        name: "Bootstrap",
+        image: "bootstrap.png",
+      },
+      {
+        id: "3",
+        name: "JS",
+        image: "js.png",
+      },
+    ],
   },
   {
     id: "7",
@@ -65,6 +202,23 @@ export const ImageTypes = [
     alt: "foodWebsiteImage",
     type: "small",
     part: "frontend",
+    technolgies: [
+      {
+        id: "1",
+        name: "HTML",
+        image: "html.png",
+      },
+      {
+        id: "2",
+        name: "CSS",
+        image: "css.png",
+      },
+      {
+        id: "3",
+        name: "JS",
+        image: "js.png",
+      },
+    ],
   },
   {
     id: "8",
@@ -72,6 +226,28 @@ export const ImageTypes = [
     alt: "agencyWebsiteImage",
     type: "small",
     part: "frontend",
+    technolgies: [
+      {
+        id: "1",
+        name: "HTML",
+        image: "html.png",
+      },
+      {
+        id: "2",
+        name: "CSS",
+        image: "css.png",
+      },
+      {
+        id: "4",
+        name: "Bootstrap",
+        image: "bootstrap.png",
+      },
+      {
+        id: "3",
+        name: "JS",
+        image: "js.png",
+      },
+    ],
   },
   {
     id: "9",
@@ -79,5 +255,23 @@ export const ImageTypes = [
     alt: "creativeWebsiteImage",
     type: "small",
     part: "frontend",
+    technolgies: [
+      {
+        id: "1",
+        name: "HTML",
+        image: "html.png",
+      },
+      {
+        id: "2",
+        name: "CSS",
+        image: "css.png",
+      },
+
+      {
+        id: "3",
+        name: "JS",
+        image: "js.png",
+      },
+    ],
   },
 ];
