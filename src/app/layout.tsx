@@ -19,17 +19,11 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
-  // const context = useContext(ModalState);
   return (
     <html lang="en">
       <body className={inter.className}>
         <Providers>
           {children}
-          {/* {context.isModalActive && (
-            <Overlay>
-              <Modal />
-            </Overlay>
-          )} */}
         </Providers>
       </body>
     </html>

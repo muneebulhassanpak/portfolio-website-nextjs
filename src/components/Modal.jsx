@@ -1,8 +1,10 @@
+"use client";
 import React, { useContext } from "react";
 import ModalState from "../store/modal-state";
 import Image from "next/image";
 import Link from "next/link";
 import { ImageTypes } from "../../utils/Types";
+import { motion } from "framer-motion";
 
 const dataFetcher = (id) => {
   return ImageTypes.find((item) => item.id == id);
@@ -12,10 +14,18 @@ const Modal = () => {
   const { activeElementId, changeModalState } = useContext(ModalState);
   const Item = dataFetcher(activeElementId);
   return (
-    <section
+    <motion.section
       className="h-screen w-[95%] sm:w-[90%] bg-white absolute right-0 top-0 bottom-0"
       onClick={(e) => {
         e.stopPropagation();
+      }}
+      initial={{ x: "100vw", opacity: 0 }}
+      animate={{
+        x: 0,
+        opacity: 1,
+        transition: {
+          ease: "easeInOut",
+        },
       }}
     >
       <div className="relative">
@@ -91,7 +101,7 @@ const Modal = () => {
           </button>
         </div>
       </div>
-    </section>
+    </motion.section>
   );
 };
 
