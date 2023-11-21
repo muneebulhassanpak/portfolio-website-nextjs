@@ -63,20 +63,24 @@ const Modal = () => {
                   </h3>
                   <div className="flex items-center justify-end w-auto ">
                     <div className="w-[50px] grid place-items-center h-[50px] border rounded-full shadow-md">
-                      <Image
-                        src={"/github.png"}
-                        width={40}
-                        height={40}
-                        alt="github-icon"
-                      />
+                      <a href={Item.githubLink} target="_blank">
+                        <Image
+                          src={"/github.png"}
+                          width={40}
+                          height={40}
+                          alt="github-icon"
+                        />
+                      </a>
                     </div>
                     <div className="w-[50px] h-[50px] grid place-items-center border rounded-full shadow-md p-2 ml-6">
-                      <Image
-                        src={"/live.png"}
-                        width={40}
-                        height={40}
-                        alt="live-icon"
-                      />
+                      <a href={Item.liveLink} target="_blank">
+                        <Image
+                          src={"/live.png"}
+                          width={40}
+                          height={40}
+                          alt="live-icon"
+                        />
+                      </a>
                     </div>
                   </div>
                 </div>

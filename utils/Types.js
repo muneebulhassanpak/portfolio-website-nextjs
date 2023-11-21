@@ -23,6 +23,8 @@ export const ImageTypes = [
     alt: "foodWebsiteImage",
     type: "small",
     part: "frontend",
+    githubLink: "https://github.com/muneebulhassanpak/Dining-website",
+    liveLink: "https://mealswebsitebymuneeb.netlify.app/",
     technolgies: [
       {
         id: "1",
@@ -47,6 +49,8 @@ export const ImageTypes = [
     alt: "agencyWebsiteImage",
     type: "small",
     part: "frontend",
+    githubLink: "https://github.com/muneebulhassanpak/Karma-Website",
+    liveLink: "https://karmawebsitebymuneeb.netlify.app/",
     technolgies: [
       {
         id: "1",
@@ -76,6 +80,9 @@ export const ImageTypes = [
     alt: "creativeWebsiteImage",
     type: "small",
     part: "frontend",
+    githubLink:
+      "https://github.com/muneebulhassanpak/designtotailwindcsspractice",
+    liveLink: "https://sunnysidewebsitebymuneeb.netlify.app/",
     technolgies: [
       {
         id: "1",
@@ -100,6 +107,8 @@ export const ImageTypes = [
     alt: "youtubeWebsiteImage",
     type: "large",
     part: "full-stack",
+    githubLink: "https://github.com/muneebulhassanpak/youtube-clone-cyclic",
+    liveLink: "https://calm-slippers-goat.cyclic.app/",
     technolgies: [
       {
         id: "1",
@@ -144,6 +153,9 @@ export const ImageTypes = [
     alt: "creativeWebsiteImage",
     type: "small",
     part: "frontend",
+    githubLink:
+      "https://github.com/muneebulhassanpak/designtotailwindcsspractice",
+    liveLink: "https://sunnysidewebsitebymuneeb.netlify.app/",
     technolgies: [
       {
         id: "1",
@@ -173,6 +185,8 @@ export const ImageTypes = [
     alt: "foodWebsiteImage",
     type: "small",
     part: "frontend",
+    githubLink: "https://github.com/muneebulhassanpak/Dining-website",
+    liveLink: "https://mealswebsitebymuneeb.netlify.app/",
     technolgies: [
       {
         id: "1",
@@ -202,6 +216,8 @@ export const ImageTypes = [
     alt: "foodWebsiteImage",
     type: "small",
     part: "frontend",
+    githubLink: "https://github.com/muneebulhassanpak/Dining-website",
+    liveLink: "https://mealswebsitebymuneeb.netlify.app/",
     technolgies: [
       {
         id: "1",
@@ -226,6 +242,8 @@ export const ImageTypes = [
     alt: "agencyWebsiteImage",
     type: "small",
     part: "frontend",
+    githubLink: "https://github.com/muneebulhassanpak/Karma-Website",
+    liveLink: "https://karmawebsitebymuneeb.netlify.app/",
     technolgies: [
       {
         id: "1",
@@ -255,6 +273,9 @@ export const ImageTypes = [
     alt: "creativeWebsiteImage",
     type: "small",
     part: "frontend",
+    githubLink:
+      "https://github.com/muneebulhassanpak/designtotailwindcsspractice",
+    liveLink: "https://sunnysidewebsitebymuneeb.netlify.app/",
     technolgies: [
       {
         id: "1",
